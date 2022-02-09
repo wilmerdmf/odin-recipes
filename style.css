@@ -1,5 +1,166 @@
+* {
+    
+    margin: 0;
+    padding: 0;
+}
 
-h1 {
-    color: purple;
-  }
+body {
+    background: url(./images/fondo.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#cabecera {
+    text-align: center;
+    background: url(./images/fondocabecera.jpg);
+    color: white;
+    padding: 30px;
+    margin: 30px;
+    display: block;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+
+#cabecera2 {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.imagenlink {
+    height: 270px;
+    max-width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border-radius: 5%;
+}
+
+.imagenlink:hover {
+    transform: scale(1.02);
+    transition: all ease;
+    box-shadow: 0 0 10px #8c7ae6;
+}
+
+#arepa,
+#karaage,
+#fajitas {
+    display: table;
+    box-sizing: content-box;
+    overflow:hidden;
+    width: 28.30%;
+    padding: 5px;
+    float: left;
+    background: url(./images/fondocabecera.jpg);
+    margin: 42.90px;
+    margin-top: 6px;
+    text-align: center;
+    height: 400px; 
+    padding-top: 30px;
+}
+
+.link {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 25px;
+    transition: transform 
+}
+
+.link:hover {
+    text-shadow: 0 0 20px #8c7ae6;
+    color: #8c7ae6;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.about {
+    color: white;
+    font-style: italic;
+    text-decoration: none;
+    font-size: 20px;  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about:hover {
+    color: #8c7ae6;
+    text-decoration: underline;
+}
+
+#arepatext,
+#karaagetext,
+#fajitastext {
+    color: white;   
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#fajitastext {
+    padding-bottom: 68px;
+}
+
+#redes {
+    background: url(./images/fondocabecera.jpg);
+    display: block;
+    
+}
+
+ul {   
+    display: flex;
+    margin: 0;
+    padding: 5px;
+    padding-left: 46.66%;
+    list-style: none;
+
+}
+
+#face {
+    width: 57px;  
+}
+
+#tw {
+    width: 52px; 
+    padding-left: 20px;
+    padding-top: 1px;    
+}
+
+#tw:hover,
+#face:hover {
+    transform: scale(1.2);
+    transition: all ease;
+   
+}
+
+
+
+#firma {
+    clear: both;
+    background: url(./images/fondocabecera.jpg);
+    color: white;
+    text-align: center;  
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
