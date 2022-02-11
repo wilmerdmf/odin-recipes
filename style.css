@@ -50,9 +50,9 @@ p {
 #karaage,
 #fajitas {
     display: table;
-    box-sizing: content-box;
+    box-sizing: border-box;
     overflow:hidden;
-    width: 28.30%;
+    width: 28.80%;
     padding: 5px;
     float: left;
     background: url(./images/fondocabecera.jpg);
@@ -107,8 +107,7 @@ p {
 
 #redes {
     background: url(./images/fondocabecera.jpg);
-    display: block;
-    
+    display: block;  
 }
 
 ul {   
@@ -117,7 +116,6 @@ ul {
     padding: 5px;
     padding-left: 46.66%;
     list-style: none;
-
 }
 
 #face {
@@ -136,8 +134,6 @@ ul {
     transition: all ease;
    
 }
-
-
 
 #firma {
     clear: both;

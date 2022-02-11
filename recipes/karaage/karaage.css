@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../../images/fondo.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}
+#titulo-letra {
+    text-align: center;
+    background: url(../../images/fondocabecera.jpg);
+    color: white;
+    padding: 30px;
+    margin: 30px;
+    display: block;
+    font-family: sans-serif, Arial, Helvetica;
+    
+}
+
+#ingredientes {
+    float: left;
+    display: block;
+    padding: 30px;
+    margin: 0px 30px 30px 30px;
+    background: url(../../images/fondocabecera.jpg);
+    color: white;
+    overflow: visible;
+    box-sizing: border-box;
+    width: 350px;
+    min-height: 800px;
+    
+}
+
+#ingredientes h2 {
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif, Arial, Helvetica;
+    margin-bottom: 50px;
+    border-bottom: 2px white dashed;
+    padding-bottom: 50px;
+}
+
+#listaingre {
+    font-size: 20px;
+    width: 70%;
+    padding-bottom: 60px;
+    padding-left: 18px;
+}
+
+#listaingre li {
+    padding-bottom: 15px;   
+    list-style: circle;
+}
+
+img {
+    width: 20%;
+    height: 30%;
+    margin: 20px 20px 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px #8c7ae6;
+}
+
+#cuerpo {
+    background: url(../../images/fondocabecera.jpg);
+    display: flex;
+    color: white;
+    margin-right: 30px;
+    overflow: hidden;
+}
+
+#descripcion {
+    padding-top: 20px;
+    width: 100%;
+    font-size: 25px;
+}
+
+p {
+    margin: 20px 30px 30px 20px;
+}
+
+#pasos,
+#extra  {
+    clear: both;
+    display: block;
+    box-sizing: border-box;
+    overflow: visible;
+    width: 50%;
+}
+
+#cuerpo2 {
+    background: url(../../images/fondocabecera.jpg);
+    display: flex;
+    color: white;
+    margin: 30px 30px 30px 30px;
+    overflow: visible;
+    box-sizing: border-box;
+    height: 685px;
+}
+
+#pasos {
+    padding: 25px 20px 10px 40px;
+    font-size: 20px;
+    border-right: 1px white dashed;
+    
+}
+
+#pasos h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+ol li {
+    margin: 30px 0px 30px 0px;
+}
+
+#extra {
+    padding: 25px 20px 10px 40px;
+    font-size: 20px;
+}
+
+#extra h3 {
+    font-size: 40px;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+#extra li {
+    margin: 55px 0px 55px 0px;
+}
+
+#atras {
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    background-color: #291f5c;
+    border-right: 2px solid #8c7ae6;
+    border-bottom: 2px solid #8c7ae6;
+    padding: 5px;
+    position:relative;
+    bottom: 20px;
+    left: 33%;  
+}
+
+#atras:active {
+    color: white;
+    background-color: #8c7ae6;
+    border-right: 2px solid #6b57c4;
+    border-bottom: 2px solid #6b57c4;
+}
