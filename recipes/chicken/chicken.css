@@ -27,7 +27,7 @@ body {
     background: url(../../images/fondocabecera.jpg);
     color: white;
     overflow: hidden;
-    box-sizing: border-box;
+    box-sizing: content-box;
     width: 350px;
     min-height: 800px;
     

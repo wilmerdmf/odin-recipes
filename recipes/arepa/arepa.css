@@ -90,7 +90,7 @@ p {
 #extra  {
     clear: both;
     display: block;
-    box-sizing: border-box;
+    box-sizing: content-box;
     min-height: 100%;
     overflow: hidden;
     width: 50%;
